@@ -520,6 +520,7 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="dataBinding" type="id"/>
+    <item name="fragment_container_view_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
@@ -542,6 +543,7 @@
     <item name="textWatcher" type="id"/>
     <item name="title" type="id"/>
     <item name="up" type="id"/>
+    <item name="visible_removing_fragment_view_tag" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
@@ -2934,6 +2936,15 @@
         <attr name="android:fontWeight"/>
         <attr name="android:fontVariationSettings"/>
         <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="Fragment">
+        <attr name="android:name"/>
+        <attr name="android:id"/>
+        <attr name="android:tag"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentContainerView">
+        <attr name="android:name"/>
+        <attr name="android:tag"/>
     </declare-styleable>
     <declare-styleable name="GradientColor">
         <!-- Start color of the gradient. -->
