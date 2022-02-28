@@ -1,4 +1,4 @@
-#Mon Feb 28 22:06:02 JST 2022
+#Tue Mar 01 00:00:57 JST 2022
 base.0=/Users/t.shimizu/AndroidStudioProjects/DessertClicker-Starter/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
